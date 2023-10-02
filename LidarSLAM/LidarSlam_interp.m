@@ -50,6 +50,7 @@ classdef LidarSlam_interp < matlab.System
           
             map = buildMap(scans, poses, obj.mapResolution, obj.maxLidarRange);
             mapData = occupancyMatrix(map);
+
             figure(1)
             hold on;
             show(map)
