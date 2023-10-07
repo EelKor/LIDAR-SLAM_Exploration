@@ -5,7 +5,7 @@ classdef LidarSlam_interp < matlab.System
     
     % Public, tunable properties
     properties
-        maxLidarRange = 10;
+        maxLidarRange = 25;
         mapResolution = 20;
         maxNumScans = 15;
     end
