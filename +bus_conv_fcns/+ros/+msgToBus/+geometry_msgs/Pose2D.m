@@ -1,0 +1,7 @@
+function slBusOut = Pose2D(msgIn, slBusOut, varargin)
+%#codegen
+%   Copyright 2021-2022 The MathWorks, Inc.
+    slBusOut.X = double(msgIn.X);
+    slBusOut.Y = double(msgIn.Y);
+    slBusOut.Theta = double(msgIn.Theta);
+end
